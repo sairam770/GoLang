@@ -55,7 +55,7 @@ func main() {
 
 	// 4. Retrieve the data from disk
 
-	fetched, err := fileBackend.GetUser("usr_22")
+	fetched, err := fileBackend.GetUser("usr_2")
 	if err != nil {
 		fmt.Println("Error fetching user:", err)
 		return
